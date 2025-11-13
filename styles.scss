@@ -421,3 +421,24 @@ body {
   background: var(--color-overlay);
   z-index: -1;
 }
+
+.video-attribution {
+  font-size: 0.725rem;
+  color: var(--color-white);
+  z-index: 1000;
+  text-decoration: none;
+  font-family: var(--font-title);
+  font-weight: 600;
+  opacity: 0.25;
+
+  display: block;
+  width: 100%;
+  text-align: right;
+  padding: 1rem;
+
+  @media (min-width: $bp-lg) {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+}
